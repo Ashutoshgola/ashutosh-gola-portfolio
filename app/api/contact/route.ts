@@ -1,14 +1,17 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-if (!process.env.RESEND_API_KEY || !process.env.MY_EMAIL) {
-  throw new Error("Missing environment variables");
-}
-
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(req: Request) {
   try {
+    if (!process.env.RESEND_API_KEY || !process.env.MY_EMAIL) {
+      return NextResponse.json(
+        { success: false, message: "Server misconfigured" },
+        { status: 500 }
+      );
+    }
+
+    const resend = new Resend(process.env.RESEND_API_KEY);
+
     const { name, email, subject, message } = await req.json();
 
     if (!name || !email || !subject || !message) {
@@ -19,10 +22,10 @@ export async function POST(req: Request) {
     }
 
     await resend.emails.send({
-      from: "onboarding@resend.dev",    
-      to: process.env.MY_EMAIL!,
-      replyTo: email,
-      subject: `Portfolio Contact Form: ${subject}`,
+      from: "onboarding@resend.dev",
+      to: process.env.MY_EMAIL,
+      reply_to: email,
+      subject: `Portfolio Contact: ${subject}`,
       html: `
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
