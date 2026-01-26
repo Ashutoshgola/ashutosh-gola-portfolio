@@ -38,7 +38,7 @@ const HeroSection = () => {
 
             {/* Download Resume Button */}
             <a
-              href="/Ashutosh_Gola.pdf"
+              href="/Ashutosh_Resume.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
