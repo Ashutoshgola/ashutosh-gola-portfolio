@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Ashutosh Gola",
   description: "Full Stack Web Developer",
   icons: [
-    { rel: 'icon', url: '/logo2.png', type: 'image/png' },
+    { rel: 'icon', url: '/Logo2.png', type: 'image/png' },
   ],
 };
 
@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="icon" href="/Logo2.png" type="image/png" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
