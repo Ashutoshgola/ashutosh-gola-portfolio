@@ -25,7 +25,7 @@ const ProjectsSection = () => {
       technologies: [
         "React.js", "Node.js", "Express", "Socket.IO", "OpenAI API", "Supabase", "TypeScript",
       ],
-      liveUrl: "https://code-colab-seven.vercel.app/",
+      liveUrl: "https://code-colab-seven.vercel.app",
       githubUrl: "https://github.com/Ashutoshgola/code-colab",
       featured: false,
     },
