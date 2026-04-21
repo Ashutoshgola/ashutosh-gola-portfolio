@@ -10,7 +10,7 @@ const ProjectsSection = () => {
         "Split AI is a full-stack Splitwise-style application that leverages modern web technologies to make shared expense tracking seamless, smart, and automated.",
       image: "/SplitAI.png",
       technologies: [
-        "Next.js", "React", "Tailwind CSS", "Auth.js", "MongoDB", "Clerk",
+        "Next.js", "React", "Tailwind CSS", "Auth.js", "MongoDB", "Clerk","Docker","Gitlab",
       ],
       liveUrl: "https://split-ai-theta.vercel.app/",
       githubUrl: "https://github.com/Ashutoshgola/SplitAI",
@@ -25,8 +25,8 @@ const ProjectsSection = () => {
       technologies: [
         "React.js", "Node.js", "Express", "Socket.IO", "OpenAI API", "Supabase", "TypeScript",
       ],
-      liveUrl: "https://codecollab-ai.vercel.app/login",
-      githubUrl: "https://github.com/Ashutoshgola/codecollab-ai",
+      liveUrl: "https://code-colab-seven.vercel.app/",
+      githubUrl: "https://github.com/Ashutoshgola/code-colab",
       featured: false,
     },
 
