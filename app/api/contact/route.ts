@@ -4,7 +4,7 @@ import { Resend } from "resend";
 export async function POST(req: Request) {
   try {
     if (!process.env.RESEND_API_KEY || !process.env.MY_EMAIL) {
-      return NextResponse.json(
+      return NextResponse.json( 
         { success: false, message: "Server misconfigured" },
         { status: 500 }
       );
