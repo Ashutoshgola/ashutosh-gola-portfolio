@@ -18,14 +18,12 @@ const AboutSection = () => {
           <div className="space-y-6 text-center">
             <h3 className="text-2xl font-semibold">Hello! I&apos;m Ashutosh Gola</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              
+  I&apos;m a <strong className="text-foreground">Software Engineer &amp; Full Stack Developer</strong> passionate about building scalable backend systems, real-time web applications, and cloud-native solutions. My engineering journey is rooted in hands-on application development—from high-concurrency event-driven platforms to fault-tolerant distributed systems using <strong className="text-foreground">Java, Node.js, React, Next.js, and MongoDB</strong>.
+</p>
+<p className="text-lg text-muted-foreground leading-relaxed">
+  Beyond web development, I actively work with modern <strong className="text-foreground">DevOps and cloud technologies</strong>. I have practical experience containerizing microservices and automating deployment workflows using tools like <strong className="text-foreground">Docker, Kubernetes, GitLab CI/CD, and AWS</strong> to ensure high system reliability, low latency, and zero downtime under load.
+</p>
 
-
-              I&apos;m an aspiring full-stack web developer fueled by a passion for creating user-centered digital solutions and a curiosity for solving real-world problems through code. My development journey started with hands-on projects—both personal and academic—where I gained experience in modern web technologies such as React, Node.js, MongoDB, and Next.js.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-            In addition to web development, I am actively learning the fundamentals of DevOps and cloud-native development. This growing interest has helped me gain hands-on exposure to CI/CD pipelines, containerization, and deployment workflows, along with practical experience using tools like Docker, GitHub Actions, and cloud platforms to build, deploy, and monitor scalable applications.
-            </p>
 
             <div className="grid grid-cols-2 gap-6 mt-8 max-w-2xl mx-auto">
               <div>

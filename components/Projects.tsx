@@ -4,6 +4,7 @@ import Image from "next/image"
 
 const ProjectsSection = () => {
   const projects = [
+    
     {
       title: "SplitAI- Personal Finance Tracker",
       description:
@@ -29,6 +30,32 @@ const ProjectsSection = () => {
       githubUrl: "https://github.com/Ashutoshgola/code-colab",
       featured: false,
     },
+    {
+      title: "EcoTrack",
+      description:
+        "StartupEcosystem is a full-stack web application designed to connect startups with potential investors through an AI-driven matchmaking system. The platform enables startups and investors to create profiles, interact securely, and discover relevant opportunities based on shared interests, funding stages, and business domains.",
+      image:
+        "/ecoTrack.png",
+      technologies: [
+        "Java", "Spring Boot", "Spring Security", "MySQL", "Docker", "REST APIs", "Maven"
+      ],
+      liveUrl: "http://startupecosystem.duckdns.org/",
+      githubUrl: "https://github.com/Ashutoshgola/startup",
+      featured: false,
+    },
+    {
+      title: "Chatty",
+      description:
+        "A high-performance, full-stack real-time messaging application built with Node.js, Express.js, Socket.IO, React, and MongoDB.",
+      image:
+        "/chat-app.png",
+      technologies: [
+        "Java", "Spring Boot", "Spring Security", "MySQL", "Docker", "REST APIs", "Maven"
+      ],
+      liveUrl: "https://github.com/Ashutoshgola/chat-app",
+      githubUrl: "https://github.com/Ashutoshgola/chat-app",
+      featured: false,
+    },
 
     {
       title: "Real Time Tracker",
@@ -43,6 +70,7 @@ const ProjectsSection = () => {
       githubUrl: "https://github.com/Ashutoshgola/RealTime-Tracker",
       featured: false,
     },
+    
   ]
 
   return (

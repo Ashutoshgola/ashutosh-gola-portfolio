@@ -12,13 +12,13 @@ const SkillsSection = () => {
     {
       title: "Backend Development",
       icon: <Server className="h-8 w-8" />,
-      skills: ["Node.js", "Express.js", "FastAPI", "Authentication (auth.js, jwt)"],
+      skills: ["Node.js", "Express.js", "FastAPI","Spring Boot","REST APIs", "Authentication (Auth.js, jwt,Spring security)"],
       color: "from-green-500 to-emerald-500"
     },
     {
       title: "Database",
       icon: <Database className="h-8 w-8" />,
-      skills: ["PostgreSQL", "MongoDB", "Mongoose", "Prisma", "Firebase"],
+      skills: ["PostgreSQL", "MySQL", "MongoDB", "Mongoose", "Prisma", "Firebase"],
       color: "from-purple-500 to-pink-500"
     },
     {
@@ -30,7 +30,7 @@ const SkillsSection = () => {
     {
       title: "DevOps & Tools",
       icon: <Wrench className="h-8 w-8" />,
-      skills: ["AWS", "Docker", "Git", "CI/CD", "Github Actions", "Kubernetes"],
+      skills: ["AWS", "Docker", "Git", "CI/CD", "Github Actions", "Kubernetes", "Maven"],
       color: "from-indigo-500 to-blue-500"
     },
     {
