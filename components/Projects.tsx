@@ -52,7 +52,7 @@ const ProjectsSection = () => {
       technologies: [
         "Java", "Spring Boot", "Spring Security", "MySQL", "Docker", "REST APIs", "Maven"
       ],
-      liveUrl: "https://github.com/Ashutoshgola/chat-app",
+      liveUrl: "http://startupecosystem.duckdns.org/",
       githubUrl: "https://github.com/Ashutoshgola/chat-app",
       featured: false,
     },
