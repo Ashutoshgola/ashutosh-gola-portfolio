@@ -24,7 +24,7 @@ const ProjectsSection = () => {
       image:
         "/code-collab.png",
       technologies: [
-        "React.js", "Node.js", "Express", "Socket.IO", "OpenAI API", "Supabase", "TypeScript",
+        "React.js", "Node.js", "Express", "Socket.IO", "OpenAI API", "Supabase", "TypeScript","Docker","Kubernetes",
       ],
       liveUrl: "https://code-colab-seven.vercel.app",
       githubUrl: "https://github.com/Ashutoshgola/code-colab",
