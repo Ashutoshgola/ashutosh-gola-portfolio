@@ -4,6 +4,17 @@ import Image from "next/image"
 
 const ProjectsSection = () => {
   const projects = [
+
+    // {
+    //   title: "Multi-Agent",
+    //   description:"",
+    //   image:"",
+    //   technology:"",
+    //   liveurl:"",
+    //   githuburl:"",
+      
+
+    // }
     
     {
       title: "SplitAI- Personal Finance Tracker",
@@ -157,3 +168,6 @@ const ProjectsSection = () => {
 }
 
 export default ProjectsSection
+
+
+
